@@ -25,11 +25,9 @@ class App extends Component {
   
   checkIfClicked(id) {
     let clickedCard = this.state.cards.filter(card => card.id === id)[0];
-    //let gameState = this.state.currentScore;
     let cardsCopy = this.state.cards.slice().sort(function(a, b){return 0.5 - Math.random()});
     if (!clickedCard.clicked) {
       clickedCard.clicked = true;
-      //console.log(clickedCard);
       cardsCopy[cardsCopy.findIndex((card) => card.id === id)] = clickedCard;
       console.log(cardsCopy);
       
@@ -52,8 +50,6 @@ class App extends Component {
       console.log(resetCardsCopy);
       this.setState({
         cards: resetCardsCopy,
-        // topScore: (this.state.currentScore > this.state.topScore ? this.state.currentScore : this.state.topScore),
-      //  currentScore: this.state.currentScore + 1,
         currentScore: 0,
       });
     } 
