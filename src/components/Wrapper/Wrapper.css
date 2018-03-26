@@ -1,5 +1,6 @@
 .wrapper {
-  padding-top: 50px;
+  margin-top:10px;
+  margin-bottom: 20px; 
   background: #CAC9FD;
   height: 100%;
   display: flex;
@@ -9,4 +10,5 @@
   justify-content: center;
   align-content: center;
   align-direction: row;
+  border-radius: 6px; 
 }

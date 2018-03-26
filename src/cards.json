@@ -6,7 +6,7 @@
   },
   {
     "id": 2,
-    "image": "./img/pluto.png",
+    "image": "./img/minnie.png",
     "clicked": false
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "id": 9,
-    "image": "./img/minnie.png",
+    "image": "./img/pluto.png",
     "clicked": false
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "id": 11,
-    "image": "./img/leia.png",
+    "image": "./img/goofy.png",
     "clicked": false
   },
   {
